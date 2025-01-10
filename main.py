@@ -1,11 +1,11 @@
+from reji import get_marves_info
+
+
 def hello(name: str) -> str:
     return f"Hello {name}!"
 
 
-response = hello('rejoice')
-
-
-print(response)
+print(hello('rejoice'))
 
 
 def add(a: int, b: int) -> int:
@@ -13,3 +13,5 @@ def add(a: int, b: int) -> int:
 
 
 print(add(1, 2))
+
+print(get_marves_info())
